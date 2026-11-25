@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "rs.plan1k.regulacija.app-debug-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "0,0,0,0",
+                        "startColumns": "11,157,50,106",
+                        "startOffsets": "11,157,50,106",
+                        "endColumns": "50,211,106,157",
+                        "endOffsets": "50,211,106,157"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,99,158,219",
+                        "endColumns": "43,58,60,55",
+                        "endOffsets": "94,153,214,270"
+                    }
+                },
+                {
+                    "source": "/home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/res/values/styles.xml",
+                    "from": {
+                        "startLines": "1,10",
+                        "startColumns": "0,0",
+                        "startOffsets": "12,459",
+                        "endLines": "9,16",
+                        "endColumns": "8,8",
+                        "endOffsets": "458,847"
+                    },
+                    "to": {
+                        "startLines": "6,15",
+                        "startColumns": "4,4",
+                        "startOffsets": "275,726",
+                        "endLines": "14,21",
+                        "endColumns": "8,8",
+                        "endOffsets": "721,1114"
+                    }
+                }
+            ]
+        }
+    ]
+}

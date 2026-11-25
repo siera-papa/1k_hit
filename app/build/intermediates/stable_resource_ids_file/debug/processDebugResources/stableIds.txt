@@ -1,0 +1,15 @@
+rs.plan1k.regulacija:xml/quick_widget_info = 0x7f060002
+rs.plan1k.regulacija:xml/quick_wave_widget_info = 0x7f060001
+rs.plan1k.regulacija:style/Theme.Hit.WidgetDialog = 0x7f050001
+rs.plan1k.regulacija:string/widget_wave_title = 0x7f040003
+rs.plan1k.regulacija:string/app_name = 0x7f040000
+rs.plan1k.regulacija:string/widget_impact_title = 0x7f040002
+rs.plan1k.regulacija:layout/quick_wave_widget = 0x7f030001
+rs.plan1k.regulacija:string/widget_goal_title = 0x7f040001
+rs.plan1k.regulacija:xml/quick_goal_widget_info = 0x7f060000
+rs.plan1k.regulacija:style/Theme.Hit = 0x7f050000
+rs.plan1k.regulacija:layout/quick_widget = 0x7f030002
+rs.plan1k.regulacija:layout/quick_goal_widget = 0x7f030000
+rs.plan1k.regulacija:id/widget_action = 0x7f020000
+rs.plan1k.regulacija:drawable/widget_background = 0x7f010001
+rs.plan1k.regulacija:drawable/ic_regulacija = 0x7f010000

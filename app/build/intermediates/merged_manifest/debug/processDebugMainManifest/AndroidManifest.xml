@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="rs.plan1k.regulacija"
+    android:versionCode="15"
+    android:versionName="0.15.0" >
+
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="35" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="false"
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:icon="@drawable/ic_regulacija"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Hit" >
+        <activity
+            android:name="rs.plan1k.regulacija.MainActivity"
+            android:exported="true"
+            android:windowSoftInputMode="adjustResize" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="rs.plan1k.regulacija.WidgetEventActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:taskAffinity="rs.plan1k.regulacija.widget"
+            android:theme="@style/Theme.Hit.WidgetDialog"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="rs.plan1k.regulacija.WidgetHitActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:taskAffinity="rs.plan1k.regulacija.widgethit"
+            android:theme="@style/Theme.Hit.WidgetDialog"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="rs.plan1k.regulacija.WidgetGoalActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:launchMode="singleTop"
+            android:taskAffinity="rs.plan1k.regulacija.widgetgoal"
+            android:theme="@style/Theme.Hit.WidgetDialog"
+            android:windowSoftInputMode="adjustResize" />
+
+        <service
+            android:name="rs.plan1k.regulacija.DailyBackupJob"
+            android:exported="true"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="rs.plan1k.regulacija.ClosureReceiver"
+            android:exported="false" />
+        <receiver
+            android:name="rs.plan1k.regulacija.QuickWidgetProvider"
+            android:exported="true"
+            android:label="1K Hit · Događaj" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/quick_widget_info" />
+        </receiver>
+        <receiver
+            android:name="rs.plan1k.regulacija.WaveWidgetProvider"
+            android:exported="true"
+            android:label="1K Hit · Udar" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/quick_wave_widget_info" />
+        </receiver>
+        <receiver
+            android:name="rs.plan1k.regulacija.GoalWidgetProvider"
+            android:exported="true"
+            android:label="1K Hit · Početak rada" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/quick_goal_widget_info" />
+        </receiver>
+    </application>
+
+</manifest>

@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "rs.plan1k.regulacija.app-debug-4:/xml_quick_goal_widget_info.xml.flat",
+        "source": "rs.plan1k.regulacija.app-main-6:/xml/quick_goal_widget_info.xml"
+    },
+    {
+        "merged": "rs.plan1k.regulacija.app-debug-4:/layout_quick_wave_widget.xml.flat",
+        "source": "rs.plan1k.regulacija.app-main-6:/layout/quick_wave_widget.xml"
+    },
+    {
+        "merged": "rs.plan1k.regulacija.app-debug-4:/drawable_widget_background.xml.flat",
+        "source": "rs.plan1k.regulacija.app-main-6:/drawable/widget_background.xml"
+    },
+    {
+        "merged": "rs.plan1k.regulacija.app-debug-4:/xml_quick_widget_info.xml.flat",
+        "source": "rs.plan1k.regulacija.app-main-6:/xml/quick_widget_info.xml"
+    },
+    {
+        "merged": "rs.plan1k.regulacija.app-debug-4:/layout_quick_goal_widget.xml.flat",
+        "source": "rs.plan1k.regulacija.app-main-6:/layout/quick_goal_widget.xml"
+    },
+    {
+        "merged": "rs.plan1k.regulacija.app-debug-4:/drawable_ic_regulacija.xml.flat",
+        "source": "rs.plan1k.regulacija.app-main-6:/drawable/ic_regulacija.xml"
+    },
+    {
+        "merged": "rs.plan1k.regulacija.app-debug-4:/xml_quick_wave_widget_info.xml.flat",
+        "source": "rs.plan1k.regulacija.app-main-6:/xml/quick_wave_widget_info.xml"
+    },
+    {
+        "merged": "rs.plan1k.regulacija.app-debug-4:/layout_quick_widget.xml.flat",
+        "source": "rs.plan1k.regulacija.app-main-6:/layout/quick_widget.xml"
+    }
+]

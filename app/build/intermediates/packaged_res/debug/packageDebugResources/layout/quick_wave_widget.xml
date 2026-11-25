@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="horizontal" android:gravity="center"
+    android:padding="5dp" android:background="@drawable/widget_background">
+    <TextView android:id="@+id/widget_action"
+        android:layout_width="match_parent" android:layout_height="match_parent"
+        android:gravity="center" android:text="+ Talas" android:textColor="#F3F6FA"
+        android:textStyle="bold" android:textSize="15sp"/>
+</LinearLayout>

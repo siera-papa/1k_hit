@@ -1,0 +1,18 @@
+<resources>
+<style name="Theme.Hit" parent="android:style/Theme.Material.NoActionBar">
+<item name="android:fontFamily">sans</item>
+<item name="android:windowLightStatusBar">false</item>
+<item name="android:statusBarColor">#0F1720</item>
+<item name="android:navigationBarColor">#0F1720</item>
+<item name="android:windowActionModeOverlay">true</item>
+<item name="android:colorAccent">#AD89E8</item>
+<item name="android:windowBackground">#0F1720</item>
+</style>
+<style name="Theme.Hit.WidgetDialog" parent="android:style/Theme.Material.Dialog.NoActionBar">
+<item name="android:windowBackground">#23313E</item>
+<item name="android:windowMinWidthMajor">85%</item>
+<item name="android:windowMinWidthMinor">90%</item>
+<item name="android:windowSoftInputMode">stateAlwaysVisible|adjustResize</item>
+<item name="android:colorAccent">#AD89E8</item>
+</style>
+</resources>

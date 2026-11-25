@@ -1,0 +1,8 @@
+rs.plan1k.regulacija.app-pngs-0 /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/build/generated/res/pngs/debug
+rs.plan1k.regulacija.app-resValues-1 /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/build/generated/res/resValues/debug
+rs.plan1k.regulacija.app-updated_navigation_xml-2 /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/build/generated/updated_navigation_xml/debug
+rs.plan1k.regulacija.app-packageDebugResources-3 /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+rs.plan1k.regulacija.app-packageDebugResources-4 /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+rs.plan1k.regulacija.app-debug-5 /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/build/intermediates/merged_res/debug/mergeDebugResources
+rs.plan1k.regulacija.app-debug-6 /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/debug/res
+rs.plan1k.regulacija.app-main-7 /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/res

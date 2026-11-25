@@ -1,0 +1,155 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:1:1-25:12
+INJECTED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:1:1-25:12
+	package
+		INJECTED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:2:5-80
+	android:name
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:2:22-78
+application
+ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:3:5-24:19
+INJECTED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:3:5-24:19
+	android:extractNativeLibs
+		INJECTED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml
+	android:label
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:3:46-78
+	android:icon
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:3:79-117
+	android:allowBackup
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:3:18-45
+	android:theme
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:3:118-150
+activity#rs.plan1k.regulacija.MainActivity
+ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:4:9-6:20
+	android:windowSoftInputMode
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:4:72-114
+	android:exported
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:4:48-71
+	android:name
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:4:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:5:13-154
+action#android.intent.action.MAIN
+ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:5:28-79
+	android:name
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:5:36-77
+category#android.intent.category.LAUNCHER
+ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:5:79-138
+	android:name
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:5:89-136
+activity#rs.plan1k.regulacija.WidgetEventActivity
+ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:7:9-287
+	android:excludeFromRecents
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:7:251-284
+	android:launchMode
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:7:131-161
+	android:windowSoftInputMode
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:7:208-250
+	android:exported
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:7:55-79
+	android:theme
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:7:162-207
+	android:taskAffinity
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:7:80-130
+	android:name
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:7:19-54
+activity#rs.plan1k.regulacija.WidgetHitActivity
+ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:8:9-288
+	android:excludeFromRecents
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:8:252-285
+	android:launchMode
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:8:132-162
+	android:windowSoftInputMode
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:8:209-251
+	android:exported
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:8:53-77
+	android:theme
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:8:163-208
+	android:taskAffinity
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:8:78-131
+	android:name
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:8:19-52
+activity#rs.plan1k.regulacija.WidgetGoalActivity
+ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:9:9-290
+	android:excludeFromRecents
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:9:254-287
+	android:launchMode
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:9:134-164
+	android:windowSoftInputMode
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:9:211-253
+	android:exported
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:9:54-78
+	android:theme
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:9:165-210
+	android:taskAffinity
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:9:79-133
+	android:name
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:9:19-53
+service#rs.plan1k.regulacija.DailyBackupJob
+ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:10:9-131
+	android:exported
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:10:106-129
+	android:permission
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:10:49-105
+	android:name
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:10:18-48
+receiver#rs.plan1k.regulacija.ClosureReceiver
+ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:11:9-77
+	android:exported
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:11:51-75
+	android:name
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:11:19-50
+receiver#rs.plan1k.regulacija.QuickWidgetProvider
+ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:12:9-15:20
+	android:label
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:12:79-111
+	android:exported
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:12:55-78
+	android:name
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:12:19-54
+intent-filter#action:name:android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:13:13-110
+action#android.appwidget.action.APPWIDGET_UPDATE
+ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:13:28-94
+	android:name
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:13:36-92
+meta-data#android.appwidget.provider
+ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:14:13-109
+	android:resource
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:14:66-107
+	android:name
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:14:24-65
+receiver#rs.plan1k.regulacija.WaveWidgetProvider
+ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:16:9-19:20
+	android:label
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:16:78-107
+	android:exported
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:16:54-77
+	android:name
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:16:19-53
+receiver#rs.plan1k.regulacija.GoalWidgetProvider
+ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:20:9-23:20
+	android:label
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:20:78-115
+	android:exported
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:20:54-77
+	android:name
+		ADDED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml:20:19-53
+uses-sdk
+INJECTED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml
+INJECTED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/stefan/Downloads/1K_Hit_Inline_v43_daily_backup_source/app/src/main/AndroidManifest.xml

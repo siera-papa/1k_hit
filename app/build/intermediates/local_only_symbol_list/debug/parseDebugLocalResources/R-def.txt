@@ -1,0 +1,17 @@
+R_DEF: Internal format may change without notice
+local
+drawable ic_regulacija
+drawable widget_background
+id widget_action
+layout quick_goal_widget
+layout quick_wave_widget
+layout quick_widget
+string app_name
+string widget_goal_title
+string widget_impact_title
+string widget_wave_title
+style Theme.Hit
+style Theme.Hit.WidgetDialog
+xml quick_goal_widget_info
+xml quick_wave_widget_info
+xml quick_widget_info

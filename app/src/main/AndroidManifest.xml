@@ -1,0 +1,25 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <application android:allowBackup="false" android:label="@string/app_name" android:icon="@drawable/ic_regulacija" android:theme="@style/Theme.Hit">
+        <activity android:name=".MainActivity" android:exported="true" android:windowSoftInputMode="adjustResize">
+            <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+        </activity>
+        <activity android:name=".WidgetEventActivity" android:exported="false" android:taskAffinity="rs.plan1k.regulacija.widget" android:launchMode="singleTop" android:theme="@style/Theme.Hit.WidgetDialog" android:windowSoftInputMode="adjustResize" android:excludeFromRecents="true" />
+        <activity android:name=".WidgetHitActivity" android:exported="false" android:taskAffinity="rs.plan1k.regulacija.widgethit" android:launchMode="singleTop" android:theme="@style/Theme.Hit.WidgetDialog" android:windowSoftInputMode="adjustResize" android:excludeFromRecents="true" />
+        <activity android:name=".WidgetGoalActivity" android:exported="false" android:taskAffinity="rs.plan1k.regulacija.widgetgoal" android:launchMode="singleTop" android:theme="@style/Theme.Hit.WidgetDialog" android:windowSoftInputMode="adjustResize" android:excludeFromRecents="true" />
+        <service android:name=".DailyBackupJob" android:permission="android.permission.BIND_JOB_SERVICE" android:exported="true"/>
+        <receiver android:name=".ClosureReceiver" android:exported="false"/>
+        <receiver android:name=".QuickWidgetProvider" android:exported="true" android:label="1K Hit · Događaj">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE"/></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/quick_widget_info"/>
+        </receiver>
+        <receiver android:name=".WaveWidgetProvider" android:exported="true" android:label="1K Hit · Udar">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE"/></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/quick_wave_widget_info"/>
+        </receiver>
+        <receiver android:name=".GoalWidgetProvider" android:exported="true" android:label="1K Hit · Početak rada">
+            <intent-filter><action android:name="android.appwidget.action.APPWIDGET_UPDATE"/></intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/quick_goal_widget_info"/>
+        </receiver>
+    </application>
+</manifest>
